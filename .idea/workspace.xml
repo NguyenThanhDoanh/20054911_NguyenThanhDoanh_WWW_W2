@@ -9,54 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4f4e4a0-5b10-40ce-b832-4b5ea5b79e03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RunJPA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restapi/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/restapi/IndexSeverlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/Connect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/EmployeeStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/ProductStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ProductImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ProductPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/CRUD_GENERIC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/OrderDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/ProductImageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/ProductPriceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/CustomerResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/EmployeeResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/OrderDetailResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/OrderResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/ProductImageResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/ProductPriceResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/ProductResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/OrderDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ProductImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ProductPriceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d4f4e4a0-5b10-40ce-b832-4b5ea5b79e03" name="Changes" comment="Rest api : ok&#10;web : no" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -236,11 +189,24 @@
       <workItem from="1695373072250" duration="264000" />
       <workItem from="1695373445987" duration="133000" />
       <workItem from="1695373600963" duration="16000" />
-      <workItem from="1695373663273" duration="122000" />
+      <workItem from="1695373663273" duration="455000" />
     </task>
+    <task id="LOCAL-00001" summary="Rest api : ok&#10;web : no">
+      <option name="closed" value="true" />
+      <created>1695374115551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695374115551</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rest api : ok&#10;web : no" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest api : ok&#10;web : no" />
   </component>
 </project>

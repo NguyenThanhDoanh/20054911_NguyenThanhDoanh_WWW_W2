@@ -27,7 +27,7 @@ public class IndexSeverlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
         PrintWriter printWriter=resp.getWriter();
-        printWriter.println("<form action='/restapi/index' method='post'>");
+        printWriter.println("<form action='/20054911_NguyenThanhDoanh_WWW_W2/index' method='post'>");
         printWriter.println("<input type='text' name='get'>");
         printWriter.println("<input type='submit' value='submit'>");
         printWriter.println("</form>");
@@ -38,7 +38,7 @@ public class IndexSeverlet extends HttpServlet {
         resp.setContentType("text/html");
         String id = req.getParameter("hello");
         PrintWriter printWriter = resp.getWriter();
-        WebTarget wt1 = clientBuilder.target("http://localhost:8080/restapi/api/customer/get")
+        WebTarget wt1 = clientBuilder.target("http://localhost:8080/20054911_NguyenThanhDoanh_WWW_W2/api/customer/get")
                 .path(id);
         Response response = wt1.request().accept(MediaType.TEXT_PLAIN).get();
         String result = response.readEntity(String.class);
